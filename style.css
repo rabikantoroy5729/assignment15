@@ -1,0 +1,290 @@
+/* default css  */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.fixed-width{
+    width: 880px;
+    margin: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-left{
+    text-align: left;
+}
+
+/* header section  */
+
+.header{
+    background-color: #22c3a3;
+}
+
+.header .h-left{
+    float: left;
+    width: 40%;
+}
+
+.header .h-left h2 {
+    color: #fff;
+    line-height: 58px;
+  }
+
+  .header .h-right {
+    float: right;
+    width: 60%;
+  }
+
+  .header .h-right ul {
+    text-align: right;
+    list-style: none;
+  }
+
+  .header .h-right ul li {
+    display: inline-block;
+  }
+
+  .header .h-right ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    padding: 0 3px;
+    line-height: 58px;
+    text-transform: uppercase;
+    transition: .4s;
+    font-size: 12px;
+  }
+
+.header .h-right ul li a:hover{
+    color: black;
+}
+
+/* banar secrtion  */
+
+.banar {
+  background-image: url(./image/header-bg01.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+}
+
+.banar .banar1 {
+  color: #fff;
+  font-size: 46px;
+}
+
+.banar .banar2 {
+  color: #fff;
+  padding: 36px;
+}
+
+.banar .banar3{}
+
+.banar .banar3 a {
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+  border: 1px solid aliceblue;
+  border-radius: 5px;
+  color: #fff;
+  transition: .4s;
+}
+
+.banar .banar3 a:hover{
+  background-color: black;
+  border-color: black;
+}
+
+/* container section  */
+
+.container{
+  margin-top: 65px;
+  margin-bottom: 95px;
+
+}
+
+.container .container1 {
+  font-size: 34px;
+  padding: 30px;
+  color: #000000cf;
+}
+
+.container .container2 {
+  color: #000000bd;
+}
+
+.content{
+  margin-bottom: 83px;
+}
+.content1 {
+  float: left;
+  width: 20%;
+  height: auto;
+  padding: 2.39%;
+}
+.content .content1 span {
+  text-align: center;
+  display: block;
+  color: #0dbf9b;
+  font-size: 29px;
+  padding-top: 30px;
+}
+.content .content1 b {
+  display: block;
+  text-align: center;
+  font-size: 21px;
+  text-transform: capitalize;
+  padding: 7px;
+  color: #000000bd;
+}
+.content .content1 p {
+  text-align: center;
+  color: #0000009e;
+}
+
+/* about section  */
+
+.about{
+  border-top: 1px solid #0dbf9b;
+  margin-bottom: 44px;
+}
+
+.about .heading {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 29px;
+  padding-top: 52px;
+  color: #000000d6;
+}
+
+.about .para {
+  text-align: center;
+  color: #00000091;
+  padding-bottom: 47px;
+  padding-top: 10px;
+}
+
+.aboutimage-left {
+  float: left;
+  width: 40%;
+}
+
+img{
+  max-width: 100%;
+}
+
+.aboutimage-left img{}
+
+.content-right {
+  float: right;
+  width: 55%;
+}
+
+.content-right1{
+  padding-bottom: 7px;
+}
+.content-right1 h5 {
+  font-size: 18px;
+  color: #00000091;
+}
+.content-right1 p {
+  color: #0000004a;
+}
+
+/* contact section  */
+
+.contact{
+  background-color: #f6f6f6;
+}
+.other{}
+
+.otherb {
+  text-align: center;
+  display: inherit;
+  font-size: 30px;
+  color: #00000091;
+  padding-top: 76px;
+  padding-bottom: 23px;
+}
+
+.otherp {
+  text-align: center;
+  color: #00000085;
+  padding-bottom: 40px;
+}
+
+.service .contact1{
+  float: left;
+  width: 30%;
+}
+
+.service {
+  height: 162px;
+  padding-top: 14px;
+}
+
+.service .contact1 {
+  float: left;
+  width: 30%;
+  padding: 1.6%;
+}
+
+.service .contact1 span {
+  text-align: center;
+  display: block;
+  color: #0dbf9b;
+}
+
+.service .contact1 p {
+  text-align: center;
+  color: #0000006b;
+}
+
+/* footer section  */
+
+.footer{
+  background-color: #0dbf9b;
+}
+.footer ul {
+  text-align: center;
+  list-style: none;
+}
+
+.footer ul li{
+  display: inline-block;
+}
+
+.footer ul li a {
+  color: #fff;
+  font-size: 12px;
+  display: inline-block;
+  padding: 18px 6px;
+}
+
+/* footer buttom  */
+
+.footer-buttom{
+  background-color: #222222;
+}
+.footer-buttom p {
+  color: #ffffff36;
+  text-align: center;
+  padding: 13px 0;
+  font-size: 12px;
+}
